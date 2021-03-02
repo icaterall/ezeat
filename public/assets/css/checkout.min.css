@@ -1,0 +1,64 @@
+
+.input-box label::before,
+.textarea-box label::before,
+.select-box label::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.input-box input,
+.textarea-box input,
+.select-box input {
+    height: 48px;
+}
+.input-box input,
+.textarea-box input,
+.select-box input,
+.input-box textarea,
+.textarea-box textarea,
+.select-box textarea,
+.input-box select,
+.textarea-box select,
+.select-box select {
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all 150ms;
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    line-height: 1em;
+    padding: 12px 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+    font-weight: 300;
+    resize: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.input-box input:not(:placeholder-shown) ~ label,
+.textarea-box input:not(:placeholder-shown) ~ label,
+.select-box input:not(:placeholder-shown) ~ label,
+.input-box textarea:not(:placeholder-shown) ~ label,
+.textarea-box textarea:not(:placeholder-shown) ~ label,
+.select-box textarea:not(:placeholder-shown) ~ label,
+.input-box select:not(:placeholder-shown) ~ label,
+.textarea-box select:not(:placeholder-shown) ~ label,
+.select-box select:not(:placeholder-shown) ~ label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    -webkit-transform: translateY(-2.452rem) scale(0.72);
+    transform: translateY(-2.452rem) scale(0.72);
+    max-width: calc((100% - 32px) / 0.72);
+}
+        .hidden {
+            display: none !important;
+        }

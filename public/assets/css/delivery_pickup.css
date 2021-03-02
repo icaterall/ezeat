@@ -1,0 +1,21 @@
+    .s-checkbox-filler-toggle {
+    justify-content: flex-start;
+    border-radius: 20px;
+    background: #d91400;
+    width: 35px;
+    height: 16px;
+    padding: 0 1px;
+}
+
+.s-checkbox-filler-toggle:before {
+    border-radius: 50%;
+    background: #fff;
+    width: 12px;
+    height: 12px;
+}
+.s-checkbox-filler-toggle:hover {
+    background: #d91400;
+}
+.s-checkbox-filler:hover {
+    border-color: #d91400;
+}

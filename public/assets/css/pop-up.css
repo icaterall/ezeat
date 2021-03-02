@@ -1,0 +1,333 @@
+
+@media (min-width: 960px) {
+    .modal-wrapper {
+        margin: 0 auto;
+        max-width: 600px;
+        -webkit-transform: translateY(70px);
+        transform: translateY(70px);
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
+    }
+}
+.disable-scrolling {
+    overflow-y: hidden;
+}
+.modal-close-button {
+    cursor: pointer;
+    position: absolute;
+    right: 4px;
+    top: 2px;
+    width: 31px;
+    height: 31px;
+}
+@media (min-width: 480px) {
+    .modal-close-button {
+        right: 15px;
+        top: -15px;
+    }
+}
+.modal-success-message {
+    color: #fff;
+    background-color: #94c47e;
+    margin-bottom: 16px;
+}
+.modal-header {
+    font-size: 2rem;
+    line-height: 1.25;
+    color: #333;
+    margin-bottom: 16px;
+    padding: 0;
+    border-bottom-style: none;
+}
+.modal-description {
+    color: #707070;
+    margin-bottom: 24px;
+}
+.modal-mobile-header {
+    line-height: 19px;
+    margin-bottom: 32px;
+}
+@media (min-width: 960px) {
+    .modal-description {
+        margin-bottom: 32px;
+    }
+    .modal-mobile-header {
+        margin-bottom: 0;
+        float: right;
+    }
+    .button.not-full-lg {
+        width: auto;
+    }
+}
+.new-modal.modal {
+    font-size: 1.4rem;
+}
+.new-modal .modal-dialog {
+    width: 100%;
+    margin-top: 0;
+}
+.new-modal.modal.in .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+}
+.new-modal .modal-content {
+    border-style: none;
+    padding: 32px 24px 80px;
+    min-height: 100vh;
+}
+.new-modal .modal-footer {
+    padding: 16px;
+    border-top: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+@media screen and (max-height: 310px) {
+    .new-modal .modal-footer {
+        position: static;
+        padding: 16px 0 0;
+    }
+    .new-modal .modal-content {
+        padding-bottom: 32px;
+    }
+}
+@media (min-width: 960px) {
+    .new-modal.modal.in .modal-dialog {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .new-modal .modal-dialog {
+        padding-bottom: 32px;
+        width: 640px;
+    }
+    .new-modal .modal-content {
+        min-height: 0;
+        padding: 32px;
+    }
+    .new-modal.modal {
+        padding-top: 124px;
+    }
+    .new-modal .modal-footer {
+        padding: 0;
+        margin-top: 48px;
+        position: relative;
+    }
+}
+.react-modal {
+    display: inline-block;
+}
+.react-modal.hide {
+    display: none;
+}
+.react-modal .modal-header {
+    font-size: 2.4rem;
+}
+.react-modal .modal-description {
+    margin-bottom: 32px;
+}
+.react-modal .modal-body {
+    padding: 0;
+}
+.react-modal .modal-content {
+    padding: 24px;
+}
+@media (min-width: 768px) {
+    .react-modal .modal-header {
+        font-size: 3.2rem;
+    }
+    .react-modal .modal-content {
+        padding: 32px;
+    }
+    .react-modal.modal.in .modal-dialog {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .react-modal .modal-dialog {
+        padding-bottom: 32px;
+        width: 640px;
+    }
+    .react-modal .modal-content {
+        min-height: 0;
+        padding: 32px;
+    }
+    .react-modal.modal {
+        padding-top: 124px;
+    }
+    .react-modal .modal-footer {
+        padding: 0;
+        margin-top: 48px;
+        position: relative;
+    }
+    .react-modal .modal-description {
+        margin-bottom: 32px;
+    }
+    .react-modal .modal-mobile-header {
+        margin-bottom: 0;
+        float: right;
+    }
+    .react-modal .button.not-full-lg {
+        width: auto;
+    }
+}
+.self-service-entry-button-container {
+    display: none;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 10000;
+}
+.self-service-entry-button-container .self-service-entry-button,
+.self-service-entry-button-container .self-service-entry-button:hover {
+    background-color: #fff;
+}
+@media (min-width: 960px) {
+    .self-service-entry-button-container {
+        display: inline-block;
+    }
+}
+.full-container {
+    position: relative;
+    width: 100%;
+    max-width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+@media (min-width: 480px) {
+    .full-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media (min-width: 768px) {
+    .full-container {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+@media (min-width: 1265px) {
+    .full-container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+.base-dialog,
+.modal-dialog-confirmation {
+    margin: 24px;
+}
+.base-dialog .actionable-detection,
+.modal-dialog-confirmation .actionable-detection {
+    display: inline-block;
+    position: relative;
+    min-width: 48px;
+    min-height: 48px;
+}
+.base-dialog .actionable-detection > *,
+.modal-dialog-confirmation .actionable-detection > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.base-dialog .modal-dialog,
+.modal-dialog-confirmation .modal-dialog {
+    max-width: 480px;
+}
+.base-dialog .close-button,
+.modal-dialog-confirmation .close-button {
+    width: 24px;
+    height: 24px;
+}
+.base-dialog .actionable-detection,
+.modal-dialog-confirmation .actionable-detection {
+    margin: -12px;
+}
+.base-dialog .modal-mobile-header,
+.modal-dialog-confirmation .modal-mobile-header {
+    margin-bottom: 24px;
+}
+.base-dialog .modal-description.modal-description,
+.modal-dialog-confirmation .modal-description.modal-description {
+    margin-bottom: 0;
+}
+.base-dialog.react-modal .modal-content,
+.react-modal.modal-dialog-confirmation .modal-content {
+    padding: 24px;
+    min-height: 0;
+}
+.base-dialog.new-modal .button-container,
+.new-modal.modal-dialog-confirmation .button-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+.base-dialog .button-container,
+.modal-dialog-confirmation .button-container {
+    margin-top: 32px;
+}
+.base-dialog .button-container > * + *,
+.modal-dialog-confirmation .button-container > * + * {
+    margin-bottom: 16px;
+}
+.base-dialog .modal-header-title,
+.modal-dialog-confirmation .modal-header-title {
+    margin-bottom: 32px;
+}
+@media (min-width: 504px) {
+    .base-dialog .modal-header,
+    .modal-dialog-confirmation .modal-header {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .base-dialog .title,
+    .modal-dialog-confirmation .title {
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
+        margin-right: 32px;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+    .base-dialog .modal-mobile-header,
+    .modal-dialog-confirmation .modal-mobile-header {
+        -webkit-box-ordinal-group: 3;
+        -webkit-order: 2;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .base-dialog.react-modal .modal-header,
+    .react-modal.modal-dialog-confirmation .modal-header {
+        font-size: 2.4rem;
+    }
+    .base-dialog.react-modal .modal-mobile-header,
+    .react-modal.modal-dialog-confirmation .modal-mobile-header {
+        margin-bottom: 0;
+    }
+    .base-dialog.new-modal .button-container,
+    .new-modal.modal-dialog-confirmation .button-container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .base-dialog .button-container > * + *,
+    .modal-dialog-confirmation .button-container > * + * {
+        margin-bottom: 0;
+        margin-left: 16px;
+    }
+}
