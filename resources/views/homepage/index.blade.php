@@ -28,14 +28,14 @@
                           
                      <div class="row">
                         <div class="col-xl-5">
-                            <a target="_blank" href="https://play.google.com/store">
-                                <img src="/assets/img/playstore.jpg" class="img-fluid">
+                            <a target="_blank" href="{{ __('config.app.googleplay_url')}}">
+                                <img src="/assets/img/playstore.png" class="img-fluid">
                             </a>
                         </div>         
                  
                     <div class="col-xl-5">
-                        <a target="_blank" href="https://www.apple.com/app-store/">
-                                <img src="/assets/img/appstore.jpg" class="img-fluid" alt="app logo">
+                        <a target="_blank" href="{{ __('config.app.appstore_url')}}">
+                                <img src="/assets/img/appstore.png" class="img-fluid" alt="app logo">
                             </a>
                         
                     </div>

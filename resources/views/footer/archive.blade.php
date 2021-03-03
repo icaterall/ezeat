@@ -47,16 +47,16 @@
                     </div>
                 </div>
                 <div class="col-xl col-lg-4 col-md-4 col-sm-6">
-                    <div class="footer-links">
+                    <div class="footer-links"  style="width: 50%">
                         <h6 class="text-custom-white">Download Apps</h6>
                         <div class="appimg">
                             <a target="_blank" href="{{ __('config.app.appstore_url')}}">
-                                <img src="/assets/img/appstore.jpg" class="img-fluid" alt="app logo">
+                                <img src="/assets/img/appstore.png" class="img-fluid" alt="app logo">
                             </a>
                         </div>
                         <div class="appimg">
                             <a target="_blank" href="{{ __('config.app.googleplay_url')}}">
-                                <img src="/assets/img/playstore.jpg" class="img-fluid" alt="app logo">
+                                <img src="/assets/img/playstore.png" class="img-fluid" alt="app logo">
                             </a>
                         </div>
                     </div>

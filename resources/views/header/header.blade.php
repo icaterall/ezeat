@@ -16,10 +16,7 @@
                         <div class="right-side fw-700 mainNavCol">
                 
                             <!-- mobile search -->
-                            <div class="mobile-search">
-                                <a href="#" data-toggle="modal" data-target="#search-box"> <i class="fas fa-search"></i>
-                                </a>
-                            </div>
+                         
                             <!-- mobile search -->
                             <!-- user account -->
                            @include('header.user_menu')
