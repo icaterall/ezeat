@@ -1,4 +1,4 @@
-@extends('merchants.foods.template')
+@extends('admin.merchants.foods.template')
 
 @section('local_content')
 
@@ -13,9 +13,9 @@
  <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 
 
-@include('merchants.foods.datatable')
+@include('admin.merchants.foods.datatable')
 </div>
 
-@include('merchants.include.delete')
+@include('admin.merchants.include.delete')
 
 @endsection

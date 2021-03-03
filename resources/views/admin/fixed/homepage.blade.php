@@ -87,11 +87,11 @@
                                                     <div class="row m-0">
                                                         <div class="col px-8 py-6 mr-8">
                                                             <div class="font-size-sm text-muted font-weight-bold"> Drivers payments</div>
-                                                            <div class="font-size-h4 font-weight-bolder">MYR {{$payment_summary['riders_payment']}}</div>
+                                                            <div class="font-size-h4 font-weight-bolder">MYR </div>
                                                         </div>
                                                         <div class="col px-8 py-6">
                                                             <div class="font-size-sm text-muted font-weight-bold">Driver Payouts</div>
-                                                            <div class="font-size-h4 font-weight-bolder">MYR {{$payment_summary['riders_payment_pending']}}</div>
+                                                            <div class="font-size-h4 font-weight-bolder">MYR </div>
                                                         </div>
                                                     </div>                        <!--end::Row-->
                                                

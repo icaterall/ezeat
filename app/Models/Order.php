@@ -147,8 +147,8 @@ class Order extends Model
          $admin_payment = $orders->sum('total');
          $restaurant_payment = $orders->sum('restaurant_total');
          $restaurant_payment_pending = Earning::get()->sum('restaurant_earning');
-         $riders_payment = RiderWallet::get()->sum('total_amount');
-         $riders_payment_pending = RiderWallet::get()->sum('value');         
+         $riders_payment = 0;
+         $riders_payment_pending = 0;         
          $admin_commission = number_format($admin_payment - $restaurant_payment - $riders_payment, 2, '.', ',');
 
 return array(

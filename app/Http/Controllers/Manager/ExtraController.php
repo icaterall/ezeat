@@ -48,7 +48,7 @@ class ExtraController extends Controller
          return ExtraDataTable::dataTable($request->food_id);
             }
 
-         return view('merchants.foods.extras.archive');
+         return view('admin.merchants.foods.extras.archive');
     }
     /**
      * Show the form for creating a new resource.
@@ -61,10 +61,10 @@ class ExtraController extends Controller
           {
             $sizes = Variation::where('food_id',$request->food_id)->get();
 
-            $showVariation = view('merchants.foods.extras.vary_price_sizes', compact('sizes'))->render();
+            $showVariation = view('admin.merchants.foods.extras.vary_price_sizes', compact('sizes'))->render();
            } else
            {
-              $showVariation = view('merchants.foods.extras.not_vary_price_sizes')->render();
+              $showVariation = view('admin.merchants.foods.extras.not_vary_price_sizes')->render();
            }
 
       return response()->json(['showVariation' => $showVariation]); 
@@ -95,7 +95,7 @@ class ExtraController extends Controller
         $data=Extra::where('food_id',$food->id)->get();
         $titles = ExtraGroup::all();
         $sizes = Variation::where('food_id',$food->id)->get();
-        return view('merchants.foods.extras.create',compact('data','food','titles','sizes'));
+        return view('admin.merchants.foods.extras.create',compact('data','food','titles','sizes'));
     }
 
     /**
@@ -255,12 +255,12 @@ $error = Validator::make($request->all(), [
 
       if(count($sizes)>0)
       {
-      $showExtraForm = view('merchants.foods.extras.editsizesform', compact('extra','sizes'))->render();
+      $showExtraForm = view('admin.merchants.foods.extras.editsizesform', compact('extra','sizes'))->render();
       $sizes = 1;
       }
       else 
       {
-      $showExtraForm = view('merchants.foods.extras.editform', compact('extra'))->render();
+      $showExtraForm = view('admin.merchants.foods.extras.editform', compact('extra'))->render();
       $sizes = 0;
       }
 

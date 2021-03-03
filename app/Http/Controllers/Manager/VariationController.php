@@ -46,7 +46,7 @@ class VariationController extends Controller
          return VariationDataTable::dataTable($request->food_id);
             }
 
-         return view('merchants.foods.sizes.archive');
+         return view('admin.merchants.foods.sizes.archive');
     }
     /**
      * Show the form for creating a new resource.
@@ -113,7 +113,7 @@ class VariationController extends Controller
     {
  
       $size = Variation::findOrFail($id);
-      $showSizeForm = view('merchants.foods.sizes.form', compact('size'))->render();
+      $showSizeForm = view('admin.merchants.foods.sizes.form', compact('size'))->render();
       return response()->json(['showSizeForm' => $showSizeForm]);
     }
 

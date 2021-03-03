@@ -1,4 +1,4 @@
-@extends('merchants.layouts.master') 
+@extends('admin.merchants.layouts.master') 
 
 @section('title', 'Foods Management :: Spoongate')
 

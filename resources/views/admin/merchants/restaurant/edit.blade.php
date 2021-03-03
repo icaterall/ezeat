@@ -1,4 +1,4 @@
-@extends('merchants.restaurant.template')
+@extends('admin.merchants.restaurant.template')
 
 @section('local_content')
 

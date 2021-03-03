@@ -1,4 +1,4 @@
-@extends('merchants.orders.order_details.template')
+@extends('admin.merchants.orders.order_details.template')
 @section('local_content')
     @section('css')
 

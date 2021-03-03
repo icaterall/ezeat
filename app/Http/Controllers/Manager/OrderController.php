@@ -42,7 +42,7 @@ class OrderController extends Controller
             return OrderDataTable::dataRestaurantTable($data);
             }
 
-         return view('merchants.orders.archive');
+         return view('admin.merchants.orders.archive');
             
     }
 

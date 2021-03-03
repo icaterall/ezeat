@@ -91,7 +91,7 @@ else $url=asset("uploads/productimages/$data->image");
         })
 
 ->addColumn('action', function($row){
-        return  view('merchants.foods.action-buttons',compact('row'))->render();
+        return  view('admin.merchants.foods.action-buttons',compact('row'))->render();
                     })
        ->rawColumns(['name', 'action'])->make(true);
 

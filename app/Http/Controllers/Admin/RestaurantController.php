@@ -173,7 +173,7 @@ class RestaurantController extends Controller
        if(Auth::user()->hasrole('admin'))
          return view('admin.restaurants.all_restaurants.edit',compact('data','status','RestaurantCuisine'));
         else if(RestaurantUser::checkRestaurantOwner($id))
-        return view('merchants.restaurant.edit',compact('data','status','RestaurantCuisine'));
+        return view('admin.merchants.restaurant.edit',compact('data','status','RestaurantCuisine'));
         return Redirect::route('manager.index')->with('message', 'You do not have permission');  
 
     }

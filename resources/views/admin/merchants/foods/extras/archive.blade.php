@@ -1,6 +1,6 @@
  <div id="kt_content">
-@include('merchants.foods.extras.datatable')
+@include('admin.merchants.foods.extras.datatable')
 
 </div>
-@include('merchants.foods.extras.delete')
-@include('merchants.foods.extras.edit')
+@include('admin.merchants.foods.extras.delete')
+@include('admin.merchants.foods.extras.edit')

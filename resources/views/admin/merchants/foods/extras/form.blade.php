@@ -44,7 +44,7 @@
                   </tr>
 
                   <tr>
-                    @include('merchants.foods.extras.vary_price_sizes')
+                    @include('admin.merchants.foods.extras.vary_price_sizes')
 <div class="row">
   <button type="button" id="add_more" class="btn btn-primary btn-sm float_right"> 
     <i class="fa fa-plus icon-sm "></i>Add another
@@ -61,7 +61,7 @@
                 <th  style="font-size: 14px">Upcharge</th>
             </tr>
             <tr> 
-              @include('merchants.foods.extras.not_vary_price_sizes')
+              @include('admin.merchants.foods.extras.not_vary_price_sizes')
               <div class="row">
                 <button type="button" id="add_more" class="btn btn-primary btn-sm float_right"> 
                   <i class="fa fa-plus icon-sm "></i>Add another

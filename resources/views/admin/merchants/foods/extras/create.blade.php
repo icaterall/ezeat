@@ -1,4 +1,4 @@
-@extends('merchants.foods.extras.extra_template')
+@extends('admin.merchants.foods.extras.extra_template')
 
 @section('local_content')
 
@@ -58,7 +58,7 @@
         <form  action="{{ route('manager.extras.store') }}" id="createform" method="POST" class="form-horizontal">
                 @endif
 
-                 @include('merchants.foods.extras.form')
+                 @include('admin.merchants.foods.extras.form')
 
     </form>    
                    

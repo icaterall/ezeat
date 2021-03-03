@@ -30,7 +30,7 @@ class DashboardController extends Controller
                 $restaurant_id = $restaurant->id;
                 $payment_summary = Order::GetManagerAmount($orders,$restaurant_id);
         
-                return view('merchants.index',compact('payment_summary'));
+                return view('admin.merchants.index',compact('payment_summary'));
             }
     }
 

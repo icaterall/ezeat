@@ -101,7 +101,7 @@ class OrderController extends Controller
         ->where('secret',$secret)
         ->first();
          
-        $view = 'merchants.orders.order_details.order_details';
+        $view = 'admin.merchants.orders.order_details.order_details';
 
         if(Auth::Check())
        if(Auth::user()->hasrole('admin'))

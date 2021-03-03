@@ -27,7 +27,7 @@
 
         <!--begin::Main-->
         <!--begin::Header Mobile-->
-@include('merchants.fixed.mobile_header')
+@include('admin.merchants.fixed.mobile_header')
                 <!--begin::Wrapper-->
                 <div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
                     
@@ -63,7 +63,7 @@
                                 
                                     <!--end::Chat-->
                                     <!--begin::User-->
-                                    @include('merchants.fixed.user')
+                                    @include('admin.merchants.fixed.user')
                                     <!--end::User-->
                                 </div>
                                 <!--end::Topbar-->
@@ -79,7 +79,7 @@
                                 <!--begin::Header Menu Wrapper-->
                                 <div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
                                     <!--begin::Header Menu-->
-                                    @include('merchants.fixed.header_menu')
+                                    @include('admin.merchants.fixed.header_menu')
                                     <!--end::Header Menu-->
                                 </div>
                                 <!--end::Header Menu Wrapper-->
@@ -114,7 +114,7 @@
                 @yield('content')
       <!--end::Content-->
                     <!--begin::Footer-->
-                    @include('merchants.fixed.footer')
+                    @include('admin.merchants.fixed.footer')
                     <!--end::Footer-->
                 </div>
                 <!--end::Wrapper-->
@@ -122,8 +122,8 @@
             <!--end::Page-->
         </div>
 
-@include('merchants.fixed.user_panel')
-@include('merchants.fixed.user_setting_panel')       
+@include('admin.merchants.fixed.user_panel')
+@include('admin.merchants.fixed.user_setting_panel')       
         <!--begin::Chat Panel-->
         
         <!--end::Chat Panel-->

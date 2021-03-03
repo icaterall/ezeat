@@ -14,7 +14,7 @@
 
                   <form  action="{{ route('manager.sizes.store') }}" id="createSizeform" method="POST" class="form-horizontal">
 
-                         @include('merchants.foods.sizes.form')
+                         @include('admin.merchants.foods.sizes.form')
 
                 </form>
 

@@ -157,7 +157,7 @@ class NewRestaurantController extends Controller
             $status = Helper::status();
             $cuisine = Restaurant::find($id);
             $RestaurantCuisine = $cuisine->cuisines->pluck('name','id')->all();
-            return view('merchants.restaurant.edit',compact('data','status','RestaurantCuisine'));
+            return view('admin.merchants.restaurant.edit',compact('data','status','RestaurantCuisine'));
 
     }
 

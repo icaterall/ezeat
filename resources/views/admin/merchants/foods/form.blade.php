@@ -256,7 +256,7 @@
 
 
  @if (\Request::is('*/edit'))
-                       @include('merchants.foods.sizes.archive') 
-                       @include('merchants.foods.extras.archive')                       
+                       @include('admin.merchants.foods.sizes.archive') 
+                       @include('admin.merchants.foods.extras.archive')                       
 @endif
 

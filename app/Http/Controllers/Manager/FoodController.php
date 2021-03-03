@@ -44,7 +44,7 @@ class FoodController extends Controller
             return FoodDataTable::dataTable();
             }
 
-         return view('merchants.foods.archive');
+         return view('admin.merchants.foods.archive');
     }
 
     /**
@@ -64,7 +64,7 @@ class FoodController extends Controller
         $times = FoodTime::orderBy('id','DESC')->pluck('name','id')->all();
         $categories = Category::orderBy('name','asc')->pluck('name','id')->all();
    
-        return view('merchants.foods.create',compact('restaurants','status','categories','times'));
+        return view('admin.merchants.foods.create',compact('restaurants','status','categories','times'));
     }
 
 
@@ -172,7 +172,7 @@ class FoodController extends Controller
         $foodTime = $data->times->pluck('name','id')->all();
         $times = FoodTime::orderBy('id','DESC')->pluck('name','id')->all();
 
-        return view('merchants.foods.edit',compact('data','restaurants','status','extras','variations','groups','categories','foodTime','times'));
+        return view('admin.merchants.foods.edit',compact('data','restaurants','status','extras','variations','groups','categories','foodTime','times'));
     }
 
     /**

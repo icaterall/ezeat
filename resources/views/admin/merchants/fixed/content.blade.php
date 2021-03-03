@@ -85,7 +85,7 @@
                                         <!--begin::Advance Table Widget 1-->
                                         <div class="card card-custom card-stretch gutter-b">
                                             <!--begin::Header-->
-                                            @include('merchants.orders.datatable')
+                                            @include('admin.merchants.orders.datatable')
                                             <!--end::Header-->
                                             <!--begin::Body-->
                                             <div class="card-body py-0">

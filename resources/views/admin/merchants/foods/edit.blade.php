@@ -1,4 +1,4 @@
-@extends('merchants.foods.template')
+@extends('admin.merchants.foods.template')
 
 @section('local_content')
 
@@ -57,14 +57,14 @@
                   </div>
 
 <!-- Show repsonse messages -->
-         @include('merchants.include.response_notification')
+         @include('admin.merchants.include.response_notification')
 <!-- end response messages -->
 
 <!-- Body -->
 <div class="card-body">
                  
     <form  action="{{ route('manager.foods.update', $data->id) }}" id="editform" method="POST" class="form-horizontal">
-                 @include('merchants.foods.form')
+                 @include('admin.merchants.foods.form')
 
     </form>    
                    

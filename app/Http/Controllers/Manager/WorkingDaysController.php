@@ -66,7 +66,7 @@ class WorkingDaysController extends Controller
         $data = RestaurantWrokingDay::getDaysByRestaurantID($id);
         $restaurant = Restaurant::findOrFail($id);
 
-        return view('merchants.working_days.edit', compact('restaurant', 'data'));
+        return view('admin.merchants.working_days.edit', compact('restaurant', 'data'));
     }
 
     /**

@@ -62,13 +62,13 @@ return [
     ],
       'app' => [
             'currency' => 'RM ',
-            'name' => 'LetUsCater',
+            'name' => 'EzEat',
             'detail_name' => '::Food Delivery',
-            'url' => 'Letuscater.com',
-            'fb_url' => 'https://www.facebook.com/letuscater/',
-            'insta_url' => 'https://www.instagram.com/letuscater/',
+            'url' => 'ezeat2u.com',
+            'fb_url' => 'https://www.facebook.com/ezeat2u/',
+            'insta_url' => 'https://www.instagram.com/ezeat2u/',
             'youtube_url' => 'https://www.youtube.com/channel/UCDYSPXvaAv_0fCwrD8T2JEw',
-            'twitter_url' => 'https://twitter.com/letuscater',
+            'twitter_url' => 'https://twitter.com/ezeat2u',
             'googleplay_url' => 'https://play.google.com/store',
             'appstore_url' => 'https://www.apple.com/app-store/',
 

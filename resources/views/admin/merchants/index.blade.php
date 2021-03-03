@@ -1,11 +1,11 @@
-@extends('merchants.orders.initial_template')
+@extends('admin.merchants.orders.initial_template')
 
 @section('title', 'Merchant Dashboard | SpoonGate.com')
 
 
 @section('content')
                    
-@include('merchants.fixed.content')
+@include('admin.merchants.fixed.content')
 @endsection
 
 @section('script')
