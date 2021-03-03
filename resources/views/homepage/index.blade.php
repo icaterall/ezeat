@@ -10,7 +10,7 @@
                     <div class="col-lg-6">
                         <div class="content-wrapper bg-white padding-20">
                             <div class="content-box padding-tb-10">
-                                <h2 class="text-light-black fw-700">Download EZEAT App</h2>
+                                <h2 class="text-light-black fw-700">Download {{__('config.app.name')}} App</h2>
                            
 
                     <div class="hero-section hero-banner-wrapper full">
@@ -22,9 +22,6 @@
                             <div class="hero-section__tracking-card fix-margin-collapse">
                                 <div id="tracking-card-react-root"></div>
                             </div>
-
-
-                           
                           
                      <div class="row">
                         <div class="col-xl-5">

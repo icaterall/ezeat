@@ -62,7 +62,7 @@ return [
     ],
       'app' => [
             'currency' => 'RM ',
-            'name' => 'EzEat',
+            'name' => 'FoodEasy',
             'detail_name' => '::Food Delivery',
             'url' => 'ezeat2u.com',
             'fb_url' => 'https://www.facebook.com/ezeat2u/',
